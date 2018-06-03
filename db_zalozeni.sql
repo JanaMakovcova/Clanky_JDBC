@@ -1,0 +1,12 @@
+﻿CREATE DATABASE DailyPlanet_muffin
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_czech_ci;
+
+USE DailyPlanet_muffin;
+
+CREATE TABLE Clanky (
+  ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  Nazev VARCHAR(250) NOT NULL,
+  Autor VARCHAR(250) NOT NULL,
+  Datum DATE NOT NULL
+);
